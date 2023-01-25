@@ -1,20 +1,22 @@
-import MechanicalTypewriter from '@/components/MechanicalTypewriter'
 import { Inter } from '@next/font/google'
 
-import Logo from '../../public/eriquy-jhordan-logo.svg'
+// import Logo from '../../public/eriquy-jhordan-logo.svg'
 
 const inter = Inter({
   variable: '--inter',
   subsets: ['latin']
 })
 
-import { Title } from '../styles/index'
+import { Header, LogoWrapper } from '../styles/index'
 
 export default function Home() {
   return (
     <>
-      <main className={inter.className}>
-      </main>
+      <div className={inter.className}>
+        <Header >
+        </Header>
+
+      </div>
     </>
   )
 }
