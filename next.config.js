@@ -3,7 +3,10 @@ module.exports = {
     config.module.rules.push({
       test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
-      use: ['@svgr/webpack'],
+      exclude: /node_modules/,
+      use: {
+        loader: 'svg-react-loader',
+      },
     })
 
     return config
