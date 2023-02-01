@@ -35,6 +35,13 @@ export const Nav = styled(Link)`
   line-height: 22px;
   font-weight: 400;
   text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #0f1221;
+    opacity: 0.8;
+    border-bottom: 1px solid #0f1221;
+  }
 `;
 export const IconsWrapper = styled.div`
   display: flex;
@@ -44,18 +51,74 @@ export const IconsWrapper = styled.div`
 export const Icon = styled(Image)`
   width: 24px;
   height: 24px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
-export const Circle = styled.div`
-  position: absolute;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
-  width: 300%;
-  height: 300%;
-  margin-left: -100%;
-  border-radius: 100%;
-  background-color: #edf2ff;
-  z-index: -1;
+export const Hero = styled.section`
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+`;
+export const HeroLeft = styled.div``;
+export const Title = styled.h1`
+  max-width: 420px;
+  font-weight: 700;
+  color: #0f1221;
+  line-height: 56px;
+  font-size: 46px;
+`;
+export const SubTitle = styled.h2`
+  font-weight: 700;
+  color: #5e3aee;
+  line-height: 47px;
+  font-size: 38px;
+`;
+export const Description = styled.h3`
+  font-weight: 400;
+  max-width: 450px;
+  margin-top: 24px;
+  color: #0f1221;
+  margin-bottom: 36px;
+`;
+export const ButtonCalltoAction = styled(Link)`
+  box-sizing: border-box;
+  background-color: #4263eb;
+  color: #f9f9fb;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  box-shadow: 0px 4px 4px rgba(15, 18, 33, 0.3);
+  border-radius: 8px;
+  width: 300px;
+  height: 56px;
+  padding: 16px 75px;
+  text-decoration: none;
+`;
+export const ButtonDisclaimer = styled.p`
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #868e96;
+  text-align: center;
+`;
+export const HeroRight = styled.div``;
+export const ImageHero = styled(Image)``;
+export const SubtitleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+`;
+export const SubTitleIllustration = styled(Image)``;
+
+export const ButtonWrapper = styled.div`
+  width: 100%;
+  max-width: 305px;
 `;
