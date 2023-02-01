@@ -120,5 +120,5 @@ export const SubTitleIllustration = styled(Image)``;
 
 export const ButtonWrapper = styled.div`
   width: 100%;
-  max-width: 305px;
+  max-width: 310px;
 `;
