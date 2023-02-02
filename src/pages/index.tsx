@@ -5,6 +5,7 @@ import Logo from '../../public/eriquyjhordan.svg'
 import GitHub from '../../public/icons/github.png'
 import LinkedIn from '../../public/icons/linkedin.png'
 import Mail from '../../public/icons/mail.png'
+import HamburguerMenu from '../../public/icons/hamburguer-menu.png'
 import HeroImage from '../../public/hero-image.png'
 import SubTitleIllustrationPng from '../../public/exp-illustration.png'
 
@@ -41,15 +42,23 @@ import {
   SubtitleWrapper,
   SubTitleIllustration,
   ButtonWrapper,
+  HamburguerIcon,
+  LogoWrapper,
 } from '../styles/index'
 
 export default function Home() {
+  const logoStyle = {
+    fontSize: '6rem',
+  }
+
   return (
     <>
       <Container>
         <Wrapper>
           <Header >
-            <Logo style={{ fontSize: '6rem' }} />
+            <LogoWrapper>
+              <Logo />
+            </LogoWrapper>
             <NavWrapper className={inter.className}>
               <Nav href="/">Início</Nav>
               <Nav href="/">Sobre</Nav>
@@ -67,6 +76,7 @@ export default function Home() {
                 <Icon src={Mail} alt="Mail icon and link" width={24} height={24} />
               </Link>
             </IconsWrapper>
+            <HamburguerIcon src={HamburguerMenu} alt="Hamburguer menu icon" width={32} height={32} />
           </Header>
           <Hero>
             <HeroLeft>
