@@ -49,7 +49,7 @@ export default function Home() {
       <Container>
         <Wrapper>
           <Header >
-            <Logo width={300} />
+            <Logo style={{ fontSize: '6rem' }} />
             <NavWrapper className={inter.className}>
               <Nav href="/">Início</Nav>
               <Nav href="/">Sobre</Nav>
