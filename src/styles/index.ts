@@ -87,7 +87,6 @@ export const Description = styled.h3`
   margin-bottom: 36px;
 `;
 export const ButtonCalltoAction = styled(Link)`
-  box-sizing: border-box;
   background-color: #4263eb;
   color: #f9f9fb;
   font-weight: 600;
@@ -97,15 +96,17 @@ export const ButtonCalltoAction = styled(Link)`
   border-radius: 8px;
   width: 300px;
   height: 56px;
-  padding: 16px 75px;
+  padding: 16px 60px;
   text-decoration: none;
+  text-align: center;
 `;
 export const ButtonDisclaimer = styled.p`
-  margin-top: 24px;
+  margin-top: 8px;
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
   color: #868e96;
+  max-width: 300px;
   text-align: center;
 `;
 export const HeroRight = styled.div``;
@@ -119,6 +120,6 @@ export const SubtitleWrapper = styled.div`
 export const SubTitleIllustration = styled(Image)``;
 
 export const ButtonWrapper = styled.div`
-  width: 100%;
-  max-width: 310px;
+  display: flex;
+  flex-direction: column;
 `;
