@@ -1,7 +1,7 @@
 import {inter, poppins} from '../../styles/fonts'
 
-import HeroImage from '../../../public/hero-image.png'
-import SubTitleIllustrationPng from '../../../public/exp-illustration.png'
+import HeroImage from '../../../public/hero-image.webp'
+import SubTitleIllustrationPng from '../../../public/exp-illustration.webp'
 
 import {
   Hero,

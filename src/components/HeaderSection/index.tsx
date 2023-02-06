@@ -1,8 +1,8 @@
 import Logo from '../../../public/eriquyjhordan.svg'
-import GitHub from '../../../public/icons/github.png'
-import LinkedIn from '../../../public/icons/linkedin.png'
-import Mail from '../../../public/icons/mail.png'
-import HamburguerMenu from '../../../public/icons/hamburguer-menu.png'
+import GitHub from '../../../public/icons/github.webp'
+import LinkedIn from '../../../public/icons/linkedin.webp'
+import Mail from '../../../public/icons/mail.webp'
+import HamburguerMenu from '../../../public/icons/hamburguer-menu.webp'
 
 import { inter } from '../../styles/fonts'
 
