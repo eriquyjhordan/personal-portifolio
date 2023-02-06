@@ -30,3 +30,44 @@ export const MainTecnologiesItem = styled.li`
 `;
 
 export const MainTecnologiesItemImage = styled(Image)``;
+
+export const MainCenterTextWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+`;
+
+export const MainCenterImage = styled(Image)`
+  width: 45rem;
+  height: 35rem;
+  filter: drop-shadow(0px 4px 4px rgba(15, 18, 33, 0.15));
+`;
+
+export const MainCenterText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
+`;
+
+export const MainCenterTextTitle = styled.h2`
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  color: #212529;
+  text-align: center;
+`;
+
+export const MainCenterTextDescription = styled.p`
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  margin-top: 2.4rem;
+  max-width: 62.8rem;
+`;
+
