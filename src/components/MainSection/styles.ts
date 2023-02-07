@@ -16,7 +16,7 @@ export const MainTecnologies = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5.4rem;
+  margin-top: 6.4rem;
 `;
 
 export const MainTecnologiesText = styled.p`
@@ -58,9 +58,11 @@ export const MainCenterImage = styled(Image).attrs({
   placeholder: "blur",
 })`
   max-width: 80vw;
+  margin-top: 6.4rem;
   @media (max-width: 790px) {
     max-width: 70vw;
     height: auto;
+    margin-top: 0;
   }
 `;
 
