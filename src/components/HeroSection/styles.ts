@@ -88,8 +88,8 @@ export const ButtonDisclaimer = styled.p`
 `;
 export const HeroRight = styled.div``;
 export const ImageHero = styled(Image).attrs({
-  layout: "responsive",
   priority: true,
+  placeholder: "blur",
 })`
   width: 100%;
   object-fit: contain;
@@ -108,6 +108,7 @@ export const SubtitleWrapper = styled.div`
 `;
 export const SubTitleIllustration = styled(Image).attrs({
   priority: true,
+  placeholder: "blur",
 })``;
 
 export const ButtonWrapper = styled.div`

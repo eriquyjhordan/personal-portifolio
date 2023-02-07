@@ -61,6 +61,7 @@ export const IconsWrapper = styled.div`
 `;
 export const Icon = styled(Image).attrs({
   priority: true,
+  placeholder: "blur",
 })`
   width: 2.4rem;
   height: 2.4rem;
