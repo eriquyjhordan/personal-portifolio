@@ -18,7 +18,7 @@ import {
 import Link from 'next/link'
 
 export default function HeaderSection() {
-  return(
+  return (
     <Header >
       <LogoWrapper>
         <Logo />
@@ -36,7 +36,7 @@ export default function HeaderSection() {
         <Link href="https://www.linkedin.com/in/eriquyjhordan" target="_blank">
           <Icon src={LinkedIn} alt="Linkedin icon and link" width={24} height={24} />
         </Link>
-        <Link href="">
+        <Link href="mailto: eriquy@gmail.com">
           <Icon src={Mail} alt="Mail icon and link" width={24} height={24} />
         </Link>
       </IconsWrapper>
