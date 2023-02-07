@@ -1,7 +1,16 @@
 import Image from "next/image";
 import styled from "styled-components";
 
-export const MainContainer = styled.main``;
+export const MainContainer = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 790px) {
+    flex-direction: column-reverse;
+    margin-top: 5.4rem;
+  }
+`;
 
 export const MainTecnologies = styled.section`
   display: flex;
@@ -15,14 +24,20 @@ export const MainTecnologiesText = styled.p`
   font-size: 14px;
   line-height: 21px;
   color: #495057;
+  text-align: center;
+  @media (max-width: 450px) {
+    max-width: 30rem;
+  }
 `;
 
 export const MainTecnologiesList = styled.ul`
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
-  max-width: 73.492rem;
-  gap: 12.8rem;
+  width: 73.492rem;
+  @media (max-width: 790px) {
+    width: 90vw;
+  }
 `;
 
 export const MainTecnologiesItem = styled.li`
@@ -39,8 +54,14 @@ export const MainCenterTextWrapper = styled.section`
   margin-top: 1.8rem;
 `;
 
-export const MainCenterImage = styled(Image)`
+export const MainCenterImage = styled(Image).attrs({
+  layout: "responsive",
+})`
   filter: drop-shadow(0px 4px 4px rgba(15, 18, 33, 0.15));
+  max-width: 80vw;
+  @media (max-width: 790px) {
+    max-width: 70vw;
+  }
 `;
 
 export const MainCenterText = styled.div`
