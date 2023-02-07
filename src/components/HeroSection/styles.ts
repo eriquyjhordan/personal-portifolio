@@ -87,7 +87,9 @@ export const ButtonDisclaimer = styled.p`
   text-align: center;
 `;
 export const HeroRight = styled.div``;
-export const ImageHero = styled(Image)`
+export const ImageHero = styled(Image).attrs({
+  priority: true,
+})`
   width: 100%;
   object-fit: contain;
   @media (max-width: 790px) {
