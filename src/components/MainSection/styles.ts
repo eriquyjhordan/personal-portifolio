@@ -40,8 +40,6 @@ export const MainCenterTextWrapper = styled.section`
 `;
 
 export const MainCenterImage = styled(Image)`
-  width: 45rem;
-  height: 35rem;
   filter: drop-shadow(0px 4px 4px rgba(15, 18, 33, 0.15));
 `;
 
@@ -70,4 +68,3 @@ export const MainCenterTextDescription = styled.p`
   margin-top: 2.4rem;
   max-width: 62.8rem;
 `;
-
