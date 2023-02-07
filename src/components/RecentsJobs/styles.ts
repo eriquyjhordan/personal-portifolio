@@ -15,16 +15,18 @@ export const Container = styled.div`
 
 export const ImagesCarousel = styled(Carousel).attrs({
   centerMode: true,
+  infiniteLoop: true,
   showArrows: true,
   showStatus: false,
-  infiniteLoop: true,
   showThumbs: false,
-  swipeable: true,
   emulateTouch: true,
   interval: 3500,
   autoPlay: true,
   transitionTime: 2000,
-  selectedItem: 0,
+  centerSlidePercentage: 85,
+  AnimationTimeline: true,
+  swipeScrollTolerance: 10,
+  preventMovementUntilSwipeScrollTolerance: true,
 })`
   cursor: move;
   user-select: none;
