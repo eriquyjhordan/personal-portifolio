@@ -36,7 +36,9 @@ export const DifferentialContent = styled.div`
   justify-content: center;
   max-width: 49.1rem;
 `;
-export const DifferentialImage = styled(Image)`
+export const DifferentialImage = styled(Image).attrs({
+  placeholder: "blur",
+})`
   @media (max-width: 790px) {
     width: 30rem;
     height: auto;
