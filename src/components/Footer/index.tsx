@@ -41,18 +41,28 @@ export default function Footer() {
               Sou uma pessoa proativa e sempre buscando soluções criativas para os desafios enfrentados. Estou animado para aplicar minhas habilidades e conhecimentos em novos projetos.
             </Description>
           </FooterPresentation>
-          <FooterLinks>
-            <FooterLink className={inter.className}>
+          <FooterLinks className={inter.className}>
+            <FooterLink >
               <FooterLinkTitle href="/">Início</FooterLinkTitle>
+            </FooterLink>
+            <FooterLink >
               <FooterLinkTitle href="/">Sobre</FooterLinkTitle>
+            </FooterLink>
+            <FooterLink>
               <FooterLinkTitle href="/">Perguntas frequentes</FooterLinkTitle>
+            </FooterLink>
+            <FooterLink>
               <FooterLinkTitle href="/">Testemunhos</FooterLinkTitle>
             </FooterLink>
           </FooterLinks>
-          <FooterLinks>
-            <FooterLink className={inter.className}>
-              <FooterLinkTitle href="/">Trabalhos recentes</FooterLinkTitle>
-              <FooterLinkTitle href="/">Contato</FooterLinkTitle>
+          <FooterLinks className={inter.className}>
+            <FooterLink >
+              <FooterLink>
+                <FooterLinkTitle href="/">Trabalhos recentes</FooterLinkTitle>
+              </FooterLink>
+              <FooterLink>
+                <FooterLinkTitle href="/">Contato</FooterLinkTitle>
+              </FooterLink>
             </FooterLink>
           </FooterLinks>
         </FooterContent>

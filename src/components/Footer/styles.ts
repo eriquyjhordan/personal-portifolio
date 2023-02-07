@@ -48,15 +48,7 @@ export const Description = styled.p`
   color: #f9f9fb;
 `;
 
-export const FooterLinks = styled.ul`
-  display: flex;
-  flex-direction: column;
-  max-height: 17.2rem;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding-right: 8rem;
-`;
+export const FooterLinks = styled.ul``;
 
 export const FooterLink = styled.li`
   list-style: none;
@@ -73,7 +65,12 @@ export const ButtonCalltoAction = styled(Link)``;
 
 export const FooterRights = styled.div``;
 
-export const CopyRights = styled.p``;
+export const CopyRights = styled.p`
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #f9f9fb;
+`;
 
 export const SocialLinks = styled.nav``;
 
