@@ -44,7 +44,9 @@ export const MainTecnologiesItem = styled.li`
   list-style: none;
 `;
 
-export const MainTecnologiesItemImage = styled(Image)``;
+export const MainTecnologiesItemImage = styled(Image).attrs({
+  priority: true,
+})``;
 
 export const MainCenterTextWrapper = styled.section`
   display: flex;
@@ -55,7 +57,7 @@ export const MainCenterTextWrapper = styled.section`
 `;
 
 export const MainCenterImage = styled(Image).attrs({
-  layout: "responsive",
+  priority: true,
 })`
   filter: drop-shadow(0px 4px 4px rgba(15, 18, 33, 0.15));
   max-width: 80vw;

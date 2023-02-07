@@ -59,7 +59,9 @@ export const IconsWrapper = styled.div`
     display: none;
   }
 `;
-export const Icon = styled(Image)`
+export const Icon = styled(Image).attrs({
+  priority: true,
+})`
   width: 2.4rem;
   height: 2.4rem;
   cursor: pointer;

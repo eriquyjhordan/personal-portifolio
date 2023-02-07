@@ -106,7 +106,9 @@ export const SubtitleWrapper = styled.div`
   gap: 16px;
   margin-top: 8px;
 `;
-export const SubTitleIllustration = styled(Image)``;
+export const SubTitleIllustration = styled(Image).attrs({
+  priority: true,
+})``;
 
 export const ButtonWrapper = styled.div`
   display: flex;
