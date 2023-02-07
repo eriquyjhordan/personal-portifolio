@@ -16,7 +16,7 @@ export const MainTecnologies = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6.4rem;
+  margin-top: 12.8rem;
 `;
 
 export const MainTecnologiesText = styled.p`
