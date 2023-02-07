@@ -88,10 +88,12 @@ export const ButtonDisclaimer = styled.p`
 `;
 export const HeroRight = styled.div``;
 export const ImageHero = styled(Image).attrs({
+  layout: "responsive",
   priority: true,
 })`
   width: 100%;
   object-fit: contain;
+  max-width: 52.598rem;
   @media (max-width: 790px) {
     width: 100%;
     height: 100%;
