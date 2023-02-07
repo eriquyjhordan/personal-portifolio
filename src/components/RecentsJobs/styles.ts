@@ -6,7 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const Container = styled.div`
   width: 90%;
-  margin: 0 auto;
+  margin: 12.8rem auto;
+
   @media (min-width: 790px) {
     width: 100%;
   }
