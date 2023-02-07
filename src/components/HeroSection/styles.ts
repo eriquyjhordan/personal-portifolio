@@ -41,7 +41,7 @@ export const SubTitle = styled.h2`
   font-weight: 700;
   color: #5e3aee;
   line-height: 4.7rem;
-  font-size: 3.8rem;
+  font-size: 3.6rem;
 `;
 export const Description = styled.h3`
   font-weight: 400;
@@ -87,6 +87,7 @@ export const ButtonDisclaimer = styled.p`
   text-align: center;
 `;
 export const HeroRight = styled.div``;
+
 export const ImageHero = styled(Image).attrs({
   priority: true,
   placeholder: "blur",
@@ -109,7 +110,12 @@ export const SubtitleWrapper = styled.div`
 export const SubTitleIllustration = styled(Image).attrs({
   priority: true,
   placeholder: "blur",
-})``;
+})`
+  @media (max-width: 790px) {
+    width: 3.2rem;
+    height: auto;
+  }
+`;
 
 export const ButtonWrapper = styled.div`
   display: flex;
