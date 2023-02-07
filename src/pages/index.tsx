@@ -8,6 +8,7 @@ import HeroSection from '@/components/HeroSection'
 import MainSection from '@/components/MainSection'
 import DifferentialsSection from '@/components/DifferentialsSection'
 import { AboutMe } from '@/components/AboutMe'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <DifferentialsSection />
           <AboutMe />
         </Wrapper>
+        <Footer />
       </Container>
     </>
   )
