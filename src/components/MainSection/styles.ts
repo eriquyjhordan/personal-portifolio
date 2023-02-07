@@ -57,7 +57,6 @@ export const MainCenterTextWrapper = styled.section`
 export const MainCenterImage = styled(Image).attrs({
   placeholder: "blur",
 })`
-  filter: drop-shadow(0px 4px 4px rgba(15, 18, 33, 0.15));
   max-width: 80vw;
   @media (max-width: 790px) {
     max-width: 70vw;
