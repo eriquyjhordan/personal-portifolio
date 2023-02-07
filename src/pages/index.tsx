@@ -7,6 +7,7 @@ import HeaderSection from '@/components/HeaderSection'
 import HeroSection from '@/components/HeroSection'
 import MainSection from '@/components/MainSection'
 import DifferentialsSection from '@/components/DifferentialsSection'
+import RecentsJobs from '@/components/RecentsJobs'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <HeroSection />
           <MainSection />
           <DifferentialsSection />
+          <RecentsJobs />
         </Wrapper>
       </Container>
     </>
