@@ -60,6 +60,7 @@ export const MainCenterImage = styled(Image).attrs({
   max-width: 80vw;
   @media (max-width: 790px) {
     max-width: 70vw;
+    height: auto;
   }
 `;
 
